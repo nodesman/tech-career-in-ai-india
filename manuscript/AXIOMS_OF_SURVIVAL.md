@@ -25,6 +25,11 @@
 - **The Illusion of Corporate Family:** A corporation is an algorithm optimizing for its own survival and shareholder margin. Your employment is a temporary transactional trade of time for capital.
 - **Agency Over Status:** Chasing job titles inside rotting institutional structures is a serf strategy. Real sovereign security comes from portable reputation, shipping turnkey assets, and direct value creation.
 
+### 5. The Financial Mechanics (The Asymmetric Career Curve)
+- **The Professional Athlete Problem:** A tech career resembles professional sports more than medicine or law: high peak earnings compressed into a volatile, front-loaded window (often 10–18 years), followed by aggressive ageism and rapid skill depreciation.
+- **The Long-Term Liability Trap:** The mortal financial sin in Indian tech is financing 25-year fixed debt (luxury flats in Whitefield or OMR, inflated lifestyle commitments, European vacations) using a peak compensation cycle that may only last 36–60 months.
+- **The Sovereign Fortress Balance Sheet:** The only antidote to tech career volatility is financial runway: keeping personal burn rates low, refusing golden handcuffs, avoiding illiquid real estate leverage during bull runs, and converting volatile tech compensation into non-correlated durable assets. True sovereign agency to walk away from a toxic or dying project requires at least 24 to 36 months of unencumbered living runway.
+
 ---
 
 ## 📝 Notes & Seed Ideas for Further Axioms
