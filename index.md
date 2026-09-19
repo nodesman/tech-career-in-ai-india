@@ -25,6 +25,16 @@ title: "The Sovereign Technologist: Engineering Careers in the AI Age"
 <section id="table-of-contents">
   <h2 style="margin-bottom: 24px;">Architecture of the Treatise</h2>
 
+  <div class="callout" style="margin-bottom: 32px; border-left-color: var(--accent-amber);">
+    <div class="callout-title" style="color: var(--accent-amber);">Prequel & Foundational Orientation</div>
+    <p style="margin-bottom: 12px;">Before entering the tactical architecture, every technologist must confront the historical physics of computing and answer the primary self-selection question.</p>
+    <a href="{{ '/manuscript/00-introduction-the-tech-red-queen/' | relative_url }}" class="chapter-item-link" style="border-color: rgba(245, 158, 11, 0.3); background: var(--bg-tertiary);">
+      <span class="ch-num" style="color: var(--accent-amber);">00</span>
+      <span class="ch-title"><strong>Introduction: The Tech Red Queen</strong> — Continuous Acceleration & The 1980s Invariant</span>
+      <span class="ch-arrow" style="color: var(--accent-amber);">&rarr;</span>
+    </a>
+  </div>
+
   <div class="toc-grid">
 
     <!-- Part I -->
@@ -36,14 +46,14 @@ title: "The Sovereign Technologist: Engineering Careers in the AI Age"
       </div>
       <ul class="chapter-list">
         <li>
-          <a href="{{ '/manuscript/01-the-death-of-syntax-tax/' | relative_url }}" class="chapter-item-link">
+          <a href="{{ '/manuscript/02-the-death-of-syntax-tax/' | relative_url }}" class="chapter-item-link">
             <span class="ch-num">01</span>
             <span class="ch-title">The Death of the Syntax Tax</span>
             <span class="ch-arrow">&rarr;</span>
           </a>
         </li>
         <li>
-          <a href="{{ '/manuscript/02-the-body-shop-extinction/' | relative_url }}" class="chapter-item-link">
+          <a href="{{ '/manuscript/03-the-body-shop-extinction/' | relative_url }}" class="chapter-item-link">
             <span class="ch-num">02</span>
             <span class="ch-title">The Body-Shop Extinction</span>
             <span class="ch-arrow">&rarr;</span>

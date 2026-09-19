@@ -3,9 +3,9 @@ layout: chapter
 title: "The Death of the Syntax Tax"
 subtitle: "How generative models permanently liquidated the premium on typing boilerplate code"
 part: "Part I: The Great Inversion"
-prev_url: "/"
-prev_title: "Table of Contents"
-next_url: "/manuscript/02-the-body-shop-extinction/"
+prev_url: "/manuscript/00-introduction-the-tech-red-queen/"
+prev_title: "Introduction: The Tech Red Queen"
+next_url: "/manuscript/03-the-body-shop-extinction/"
 next_title: "Chapter 02: The Body-Shop Extinction"
 ---
 

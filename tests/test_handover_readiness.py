@@ -34,7 +34,8 @@ def test_layouts():
 
 def test_manuscript_frontmatter():
     manuscript_dir = os.path.join(BASE_DIR, "manuscript")
-    chapters = glob.glob(os.path.join(manuscript_dir, "*.md"))
+    all_files = glob.glob(os.path.join(manuscript_dir, "*.md"))
+    chapters = [f for f in all_files if re.match(r'^\d{2}-', os.path.basename(f))]
     assert len(chapters) > 0, "No chapters found in manuscript/"
     
     for ch in chapters:

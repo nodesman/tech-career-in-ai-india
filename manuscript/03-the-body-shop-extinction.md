@@ -3,9 +3,9 @@ layout: chapter
 title: "The Body-Shop Extinction"
 subtitle: "The collapse of time-and-materials labor arbitrage and the rise of autonomous delivery"
 part: "Part I: The Great Inversion"
-prev_url: "/manuscript/01-the-death-of-syntax-tax/"
+prev_url: "/manuscript/02-the-death-of-syntax-tax/"
 prev_title: "Chapter 01: The Death of the Syntax Tax"
-next_url: "/manuscript/02-the-body-shop-extinction/"
+next_url: "/manuscript/04-the-commoditization-of-compliance/"
 next_title: "Chapter 03: The Commoditization of Compliance"
 ---
 
