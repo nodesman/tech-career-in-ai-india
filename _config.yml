@@ -1,0 +1,43 @@
+title: "The Sovereign Technologist: Engineering Careers in the AI Age"
+subtitle: "A Blueprint for Indian Software Engineers Navigating the Great Collapse of Syntax and the Rise of High-Acuity Agency"
+author: "Raj Aramudan"
+email: "nodesman.raj@gmail.com"
+description: "The definitive guide for Indian software professionals navigating the end of the IT services body-shop era, the rise of sovereign agency, and value arbitrage in the age of AI, anchored in Aram (அறம்)."
+url: "https://techcareer.kural.ink"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+collections:
+  manuscript:
+    output: true
+    permalink: /manuscript/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "manuscript"
+    values:
+      layout: "chapter"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - kramdown-parser-gfm
+  - rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - _meta/
+  - tests/
+  - README.md
+  - vendor/
+  - .bundle/
+  - .git/

@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<article class="chapter-container">
+  <div class="chapter-header">
+    <div class="chapter-meta">
+      <a href="{{ '/' | relative_url }}" class="back-link">&larr; Return to Index</a>
+      {% if page.part %}
+      <span class="chapter-part-label">{{ page.part }}</span>
+      {% endif %}
+    </div>
+    <h1 class="chapter-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p class="chapter-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+    <div class="chapter-divider"></div>
+  </div>
+
+  <div class="chapter-content">
+    {{ content }}
+  </div>
+
+  <div class="chapter-navigation">
+    <div class="nav-box prev-box">
+      {% if page.prev_url %}
+      <a href="{{ page.prev_url | relative_url }}" class="chapter-nav-btn prev-btn">
+        <span class="nav-dir">&larr; Previous</span>
+        <span class="nav-label">{{ page.prev_title }}</span>
+      </a>
+      {% endif %}
+    </div>
+    <div class="nav-box next-box">
+      {% if page.next_url %}
+      <a href="{{ page.next_url | relative_url }}" class="chapter-nav-btn next-btn">
+        <span class="nav-dir">Next Chapter &rarr;</span>
+        <span class="nav-label">{{ page.next_title }}</span>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</article>

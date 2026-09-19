@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} — {{ site.author }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="author" content="{{ site.author }}">
+
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+  <!-- Google Fonts: High Acuity Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+  <!-- Mermaid JS for Architectural Flows -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: 'dark',
+        themeVariables: {
+          darkMode: true,
+          background: '#0a0a0a',
+          primaryColor: '#1a1a1a',
+          primaryTextColor: '#f3f4f6',
+          primaryBorderColor: '#3b82f6',
+          lineColor: '#60a5fa',
+          secondaryColor: '#121212',
+          tertiaryColor: '#181818'
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div id="progress-container">
+    <div id="progress-bar"></div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="brand">
+        <a href="{{ '/' | relative_url }}" class="brand-link">
+          <span class="brand-badge">DECK // CODEX</span>
+          <span class="brand-title">{{ site.title }}</span>
+        </a>
+      </div>
+      <nav class="nav-links">
+        <a href="{{ '/' | relative_url }}" class="nav-item">Doctrine</a>
+        <a href="{{ '/#table-of-contents' | relative_url }}" class="nav-item">Chapters</a>
+        <a href="https://github.com/nodesman/tech-career-in-ai-india" target="_blank" rel="noopener" class="nav-item github-pill">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Body -->
+  <main class="main-wrapper">
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-meta">
+        <p class="footer-title">{{ site.title }}</p>
+        <p class="footer-subtitle">{{ site.subtitle }}</p>
+        <p class="footer-author">Authored by <strong>{{ site.author }}</strong> &bull; Grounded in <em>Aram (அறம்)</em></p>
+      </div>
+      <div class="footer-links">
+        <p>&copy; {{ 'now' | date: "%Y" }} Raj Aramudan. Published under Sovereign Reserve.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Scroll progress bar
+    window.addEventListener('scroll', function() {
+      const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (winScroll / height) * 100;
+      const bar = document.getElementById("progress-bar");
+      if (bar) {
+        bar.style.width = scrolled + "%";
+      }
+    });
+  </script>
+</body>
+</html>
