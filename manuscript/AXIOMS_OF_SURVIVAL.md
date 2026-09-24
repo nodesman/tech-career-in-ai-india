@@ -41,7 +41,10 @@
   - *Authorship & Epistemic Theft:* Non-technical managers claiming sole credit for quiet engineers' breakthroughs, while fabricating paper trails to scapegoat developers for systemic planning failures.
   - *Capability Mirage:* Founders demoing hard-coded smoke-and-mirrors or human back-office labor, signing enterprise SLAs for software that does not exist, and burning engineering teams to make the lie true.
   - *Competency Fraud:* Jargon-fluent executives who use emotional volatility and intimidation as a smoke screen to prevent anyone from discovering they cannot evaluate the systems they oversee.
-- **The Self-Defense Imperative:** When you recognize that institutional dysfunction is often deliberate fraud rather than an accident, you stop blaming yourself. Never put your personal engineering signature on fraudulent metrics, document technical realities in writing, and preserve a clean paper trail so you are never the designated fall guy.
+### 9. The Shadow Threat (Asymmetric Extraction in Remote Tech)
+- **The Invisible Coercion Mechanism:** Since 2020, predatory managers have mastered an asymmetric weapon: implanting catastrophic threats (layoffs, visa jeopardy, career destruction) purely through unrecorded spoken channels (Zoom, impromptu huddles, subtext, tone). The threat exists exclusively inside the engineer's mind and nervous system, leaving the corporate legal record spotless.
+- **The Asymmetric Ledger:** Under the weight of this invisible terror, the engineer produces real, measurable, documented sacrifices—working 80-hour weeks, logging weekend commits, and destroying their physical health. When the engineer inevitably crashes, the employer reaps the economic output while pointing to the paper trail: *"Nobody forced you to work weekends; you should have managed your time."*
+- **Forcing the Shadow into the Light:** If a directive, expectation, or consequence is not in writing, **it does not exist.** The moment an implicit threat is spoken on a call, immediately re-anchor it factually in a written recap: *"During our sync, you indicated that failure to ship by Monday would result in termination. Please confirm if this is the formal directive."* Cowardly manipulators backpedal instantly when their unrecorded terror is forced onto the formal record.
 
 ---
 
