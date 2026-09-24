@@ -34,7 +34,14 @@
 ### 7. Global Pricing Parity & BATNA Leverage (Destroying the Local Salary Anchor)
 - **The Local Salary Trap:** The most common financial self-sabotage by engineers in developing tech hubs is anchoring international contract pricing to local cost-of-living salaries. If your labor generates high-acuity global output worth €4,000/month, asking for €400/month out of fear or local habit does not make you look "competitive"—it flags you as desperate, invites predatory exploitation, and signals low quality.
 - **The Day-Job Safety Net:** Your baseline local job (even if low-paying) is your strategic negotiation cushion. It pays basic rent and food, removing acute desperation. Use that safety net to hold out stubbornly for full global market rates rather than rushing to accept discounted international scraps.
-- **Surviving "The Flinch":** In high-stakes negotiations, counterparties will apply sudden pressure—using social proof, prestige ultimatums, or invasive "cost-to-subsist" questions—to see if you panic and fold. True BATNA (Best Alternative to a Negotiated Agreement) is not just another offer in hand; it is your dignity, your proven technical caliber, and your absolute willingness to walk away and write high-value code on your own terms.
+### 8. The Anatomy of Tech Fraud (Non-Financial Malpractice)
+- **Beyond Financial Crime:** In software engineering, financial embezzlement is only a tiny fraction of malpractice. The most corrosive fraud is epistemic, technical, and operational:
+  - *Telemetry & Metrics Fraud:* Suppressing production error logs, faking test suites, empty error catches, and capitalizing broken code assets on balance sheets.
+  - *Architecture & Resume Fraud:* Forcing expensive, fragile microservice rewrites solely to pad personal CVs with trendy buzzwords for the next VP role.
+  - *Authorship & Epistemic Theft:* Non-technical managers claiming sole credit for quiet engineers' breakthroughs, while fabricating paper trails to scapegoat developers for systemic planning failures.
+  - *Capability Mirage:* Founders demoing hard-coded smoke-and-mirrors or human back-office labor, signing enterprise SLAs for software that does not exist, and burning engineering teams to make the lie true.
+  - *Competency Fraud:* Jargon-fluent executives who use emotional volatility and intimidation as a smoke screen to prevent anyone from discovering they cannot evaluate the systems they oversee.
+- **The Self-Defense Imperative:** When you recognize that institutional dysfunction is often deliberate fraud rather than an accident, you stop blaming yourself. Never put your personal engineering signature on fraudulent metrics, document technical realities in writing, and preserve a clean paper trail so you are never the designated fall guy.
 
 ---
 
